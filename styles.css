@@ -2,4 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto, serif;
+  }
+
+
+  .header-hero,
+  .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .header h1 {
+    font: 24px green;
+  }
+
+  .header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+  }
+
+  .header a, .hero-subtext {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+  .header-links {
+    margin-left: auto;
+  }
+
+  button {
+    background-color: #3882F6;
   }
