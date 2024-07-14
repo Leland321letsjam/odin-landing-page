@@ -5,6 +5,17 @@
     font-family: 'Roboto', serif;
   }
 
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+  }
 
   .header-hero,
   .footer {
@@ -22,8 +33,8 @@
   }
 
   .hero-left h1 {
-    font: bold 48px inherit;
-    /* font-weight: bold; */
+    font: 48px;
+    font-weight: 800;
     color: #F9FAF8;
   }
 
@@ -43,6 +54,63 @@
     margin-left: auto;
   }
 
+  .random-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .random-info h1, 
+  .quote1 {
+    font-size: 36px;
+    color: #1F2937;
+  }
+
+  .random-info h1 {
+    font-weight: 800;
+  }
+
+  .book-images {
+    display: flex;
+  }
+
+  .quote1 {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+  }
+
+  .action-box {
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 96px;
+    color: #F9FAF8;
+    width: 1000px
+  }
+
   button {
     background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-style: none;
+  }
+
+  .action-box button {
+    border-color: white;
+    border-style: solid;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
   }
