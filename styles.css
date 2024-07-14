@@ -29,8 +29,28 @@
     color: #F9FAF8;
   }
 
+  .header-hero {
+    padding: 0px 120px 120px;
+  }
+
   .header {
     display: flex;
+    margin-top: 16px;
+  }
+
+  .header-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 60px;
+  }
+
+  .hero-left {
+    max-width: 300px;
+  }
+
+  .hero-left * {
+    padding-bottom: 8px;
   }
 
   .header h1 {
